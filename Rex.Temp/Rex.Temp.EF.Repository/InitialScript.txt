@@ -1,0 +1,5 @@
+﻿#Befor initial database ,you should be config your 'db connection string' in appsettings.json in Rex.Temp.DataApi
+
+#Initial Scripts
+1. Add-Migration initial -OutputDir DbMigration -Project Rex.Temp.EF.Repository -StartupProject Rex.Temp.WebApi -Context RexTempDbContextz
+2. Update-Database initial -StartupProject Rex.Temp.WebApi -Project Rex.Temp.EF.Repository  -Context RexTempDbContext

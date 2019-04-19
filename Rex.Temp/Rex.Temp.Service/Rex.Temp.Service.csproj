@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rex.Temp.EF.Repository\Rex.Temp.EF.Repository.csproj" />
+    <ProjectReference Include="..\Rex.Temp.IService\Rex.Temp.IService.csproj" />
+  </ItemGroup>
+
+</Project>
